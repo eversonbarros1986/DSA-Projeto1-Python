@@ -10,9 +10,28 @@ Cada módulo do curso inclui projetos práticos baseados em conjuntos de dados r
 ## Projetos Concluídos:
 
 ## Projeto 1: Análise de Dados de Pacientes com Diabetes
-Este projeto foi um sucesso! Trabalhamos com um conjunto de dados contendo informações sobre pacientes diagnosticados ou não com diabetes. Nosso objetivo foi extrair uma amostra dos dados, focando nos pacientes com mais de 50 anos de idade. Para cada indivíduo desse subconjunto, adicionamos uma nova coluna que classifica os pacientes com base no Índice de Massa Corporal (IMC): "normal" para aqueles com IMC inferior a 30 e "obeso" para aqueles com IMC igual ou superior a 30. Em seguida, os dados foram manipulados e exportados para um novo arquivo CSV, que será encaminhado ao Cientista de Dados responsável.
-Para atender a essa demanda, utilizamos Banco de Dados, Python e SQL. Primeiramente, os dados foram importados utilizando Python. Depois, criamos uma réplica desses dados em um banco de dados, onde aplicamos as transformações necessárias por meio de consultas SQL. Após concluir as alterações e adições solicitadas, os dados foram transferidos de volta para um dataframe do Pandas e, finalmente, salvos no formato CSV.
+## Descrição do Projeto
 
-Utilizamos o dataset PIMA, disponível no link abaixo, como fonte de dados. O arquivo foi fornecido junto com os demais materiais deste capítulo.
-https://data.world/data-society/pima-indians-diabetes-database
+Este projeto foi um sucesso! Trabalhamos com um conjunto de dados contendo informações sobre pacientes diagnosticados ou não com diabetes. Nosso objetivo foi extrair uma amostra dos dados, focando nos pacientes com mais de 50 anos de idade.
+
+Para cada indivíduo desse subconjunto, adicionamos uma nova coluna que classifica os pacientes com base no Índice de Massa Corporal (IMC):
+- **Normal**: IMC inferior a 30
+- **Obeso**: IMC igual ou superior a 30
+
+Os dados foram manipulados e exportados para um arquivo CSV, que será encaminhado ao Cientista de Dados responsável.
+
+## Tecnologias Utilizadas
+
+- **Python**
+- **SQL**
+- **Banco de Dados**
+- **Pandas**
+
+Primeiramente, os dados foram importados utilizando Python. Depois, criamos uma réplica desses dados em um banco de dados, onde aplicamos as transformações necessárias com SQL. Após as alterações, os dados foram transferidos para um dataframe Pandas e salvos no formato CSV.
+## Fonte de Dados
+
+Utilizamos o dataset PIMA, disponível no link abaixo:
+
+[Dataset PIMA](https://data.world/data-society/pima-indians-diabetes-database)
+
 
