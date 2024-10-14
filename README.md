@@ -14,4 +14,5 @@ Este projeto foi um sucesso! Trabalhamos com um conjunto de dados contendo infor
 Para atender a essa demanda, utilizamos Banco de Dados, Python e SQL. Primeiramente, os dados foram importados utilizando Python. Depois, criamos uma réplica desses dados em um banco de dados, onde aplicamos as transformações necessárias por meio de consultas SQL. Após concluir as alterações e adições solicitadas, os dados foram transferidos de volta para um dataframe do Pandas e, finalmente, salvos no formato CSV.
 
 Utilizamos o dataset PIMA, disponível no link abaixo, como fonte de dados. O arquivo foi fornecido junto com os demais materiais deste capítulo.
-https://data.world/data-society/pima-indians-diabetes-databaseData Science Academy everson.barros@gmail.com 5b2412ad5e4cde25a58b456c 
+https://data.world/data-society/pima-indians-diabetes-database
+
